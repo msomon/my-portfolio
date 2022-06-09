@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Route,Routes } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Navbar from './Pages/Sheared/Navbar';
+import Resume from './Pages/Sheared/Resume';
+import Manufecturer from './Pages/Portfolio/Manufecturer';
+import Warehouse from './Pages/Portfolio/Warehouse';
+import Photographer from './Pages/Portfolio/Photographer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='lg:mx-20 sm:mx-5'>
+      <Navbar></Navbar>
+    <Routes>
+      <Route path='/' element={<Home/>} ></Route>
+      <Route path='/home' element={<Home/>} ></Route>
+      <Route path='/resume' element={<Resume/>} ></Route>
+      <Route path='/manufecturer' element={<Manufecturer/>} ></Route>
+      <Route path='/Warehouse' element={<Warehouse/>} ></Route>
+      <Route path='/Photographer' element={<Photographer/>} ></Route>
+    </Routes>
+   
     </div>
   );
 }
