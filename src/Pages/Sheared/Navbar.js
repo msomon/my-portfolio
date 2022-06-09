@@ -16,13 +16,13 @@ const download=(e)=>{
         <li><NavLink to="/home">Home</NavLink></li>
         <li><NavLink to="/portfolio">My Portfolio </NavLink></li>
         <li><NavLink to="/contuctme">Contuct Me </NavLink></li>
-        <li onClick={(e)=>download(e)} className='lg:mt-1 lg:text-xl sm:text-sm sm:text-center '> <button>Download Resume</button></li>
+        <li onClick={(e)=>download(e)} className=' lg:text-xl sm:text-sm sm:text-center '> <button>Download Resume</button></li>
        
         </>
 
 
     return (
-        <div className="navbar bg-base-100 ">
+        <div className="navbar text-neutral bg-success sticky top-0 z-30 ">
             <div className="navbar-start text-2xl mx-auto">
                     <h1 className='font-bold hidden lg:block text-3xl'>Sumon</h1>
                 <div className="dropdown">

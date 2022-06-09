@@ -7,7 +7,8 @@ import Resume from './Pages/Sheared/Resume';
 import Manufecturer from './Pages/Portfolio/Manufecturer';
 import Warehouse from './Pages/Portfolio/Warehouse';
 import Photographer from './Pages/Portfolio/Photographer';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Route path='/Warehouse' element={<Warehouse/>} ></Route>
       <Route path='/Photographer' element={<Photographer/>} ></Route>
     </Routes>
-   
+   <ToastContainer/>
     </div>
   );
 }

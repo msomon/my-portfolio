@@ -15,10 +15,8 @@ module.exports = {
         
 "base-100": "#FFFFFF",
         
-"info": "#3ABFF8",
-        
-"success": "#36D399",
-        
+"info": "#F9EEFE",
+"success": "#FCF5F5",     
 "warning": "#FBBD23",
         
 "error": "#F87272",
@@ -34,8 +32,8 @@ module.exports = {
   screens: {
       xs: '350px',
       sm: '568px',
-      md: '768px',
-      lg: '976px',
+      md: '820px',
+      lg: '1330px',
       xl: '1440px',
     },
 },
