@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 
-const Contuct = () => {
+const Contact = () => {
   const { register, formState: { errors }, handleSubmit ,reset } = useForm();
 
   const sendEmail = async (e) => {
@@ -21,9 +21,9 @@ const Contuct = () => {
   }
   return (
     <div id='contuctme' class="hero min-h-screen bg-base-200 ">
-    <div class="card lg:w-2/5 xs:w-3/4 shadow-2xl bg-base-100">
+    <div class="card lg:w-2/5 xs:w-3/4 shadow-2xl bg-base-100 xs:mr-[85px] ">
    <h1 className='text-4xl text-accent text-center mt-4'> Contuct Me </h1>
-      <div class="card-body">
+      <div class="card-body sm:ml-2">
         <form onSubmit={sendEmail}>
         <div class="form-control">
           <label class="label">
@@ -56,4 +56,4 @@ const Contuct = () => {
 };
 
 
-export default Contuct;
+export default Contact;

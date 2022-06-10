@@ -1,22 +1,15 @@
 
 import {  NavLink, useNavigate } from 'react-router-dom';
+
 const Navbar = () => {
-    const navigate = useNavigate()
-
-const download=(e)=>{
-    e.preventDefault()
-   navigate('/resume')
-
-}
-
-
+    
 
 
   const menuItems = <>
         <li><NavLink to="/home">Home</NavLink></li>
-        <li><NavLink to="/portfolio">My Portfolio </NavLink></li>
-        <li><NavLink to="/contuctme">Contuct Me </NavLink></li>
-        <li onClick={(e)=>download(e)} className=' lg:text-xl sm:text-sm sm:text-center '> <button>Download Resume</button></li>
+        <li><NavLink to="/projects">My Projects </NavLink></li>
+        <li><NavLink to="/contactme">Contuct Me </NavLink></li>
+       <a className='mt-3' href="https://drive.google.com/file/d/1Kob1LbpufBgJFgCPBn2Igg83HFU_vv8f/view?usp=sharing" download  target="_blank" ><button>Download Resume</button></a>
        
         </>
 
