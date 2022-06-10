@@ -11,6 +11,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Contact from './Pages/Home/Contact';
 import Portfolio from './Pages/Portfolio/Portfolio';
+import Aboutme from './Pages/Home/Aboutme';
+import Footer from './Pages/Sheared/Footer';
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       <Route path='/home' element={<Home/>} ></Route>
       <Route path='/home' element={<Home/>} ></Route>
       <Route path='/projects' element={<Portfolio/>} ></Route>
+      <Route path='/aboutme' element={<Aboutme/>} ></Route>
       <Route path='/contactme' element={<Contact/>} ></Route>
       <Route path='/manufecturer' element={<Manufecturer/>} ></Route>
       <Route path='/Warehouse' element={<Warehouse/>} ></Route>

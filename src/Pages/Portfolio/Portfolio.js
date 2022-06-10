@@ -4,6 +4,7 @@ import img2 from '../../image/somon electronics.png'
 import img3 from '../../image/photographer.png'
 import { Link } from 'react-router-dom';
 import './Portfolio.css'
+import Footer from '../Sheared/Footer';
 
 const Portfolio = () => {
   return (
@@ -29,6 +30,7 @@ const Portfolio = () => {
       </div>
       
     </div>
+    <Footer></Footer>
     </div>
   );
 };

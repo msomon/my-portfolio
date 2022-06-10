@@ -9,7 +9,7 @@ module.exports = {
         
 "secondary": "#F000B8",
         
-"accent": "#37CDBE",
+"accent": "#DBFEFC",
         
 "neutral": "#3D4451",
         
@@ -17,7 +17,7 @@ module.exports = {
         
 "info": "#F9EEFE",
 "success": "#FCF5F5",     
-"warning": "#FBBD23",
+"warning": "#FFF2F5",
         
 "error": "#F87272",
         },
@@ -31,9 +31,9 @@ module.exports = {
   theme:{
   screens: {
       xs: '350px',
-      sm: '568px',
-      md: '820px',
-      lg: '1330px',
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
       xl: '1440px',
     },
 },

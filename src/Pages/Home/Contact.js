@@ -21,8 +21,8 @@ const Contact = () => {
   }
   return (
     <div id='contuctme' class="hero min-h-screen bg-base-200 ">
-    <div class="card lg:w-2/5 xs:w-3/4 shadow-2xl bg-base-100 xs:mr-[85px] ">
-   <h1 className='text-4xl text-accent text-center mt-4'> Contuct Me </h1>
+    <div class="card bg-accent lg:w-2/5 xs:w-[350px] shadow-2xl xs:mr-[15px] mb-10 mt-10">
+   <h1 className='text-4xl text-primary text-center mt-4'> Contact Me </h1>
       <div class="card-body sm:ml-2">
         <form onSubmit={sendEmail}>
         <div class="form-control">

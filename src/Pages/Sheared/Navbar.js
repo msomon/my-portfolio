@@ -1,5 +1,5 @@
 
-import {  NavLink, useNavigate } from 'react-router-dom';
+import {  NavLink} from 'react-router-dom';
 
 const Navbar = () => {
     
@@ -8,8 +8,8 @@ const Navbar = () => {
   const menuItems = <>
         <li><NavLink to="/home">Home</NavLink></li>
         <li><NavLink to="/projects">My Projects </NavLink></li>
-        <li><NavLink to="/contactme">Contuct Me </NavLink></li>
-       <a className='mt-3' href="https://drive.google.com/file/d/1Kob1LbpufBgJFgCPBn2Igg83HFU_vv8f/view?usp=sharing" download  target="_blank" ><button>Download Resume</button></a>
+        <li><NavLink to="/aboutme">About Me </NavLink></li>
+        <li><NavLink to="/contactme">Contact Me </NavLink></li>
        
         </>
 
