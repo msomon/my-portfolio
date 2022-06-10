@@ -27,7 +27,6 @@ const Photographer = () => {
 
     </div>
 
-    <Footer></Footer>
     </div>
   );
 };

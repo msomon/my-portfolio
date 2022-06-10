@@ -13,10 +13,11 @@ import Contact from './Pages/Home/Contact';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Aboutme from './Pages/Home/Aboutme';
 import Footer from './Pages/Sheared/Footer';
+import Blogs from './Pages/Home/Blogs';
 
 function App() {
   return (
-    <div className='lg:mx-20 xs:ml-2'>
+    <div className=''>
       <Navbar></Navbar>
     <Routes>
       <Route path='/' element={<Home/>} ></Route>
@@ -24,11 +25,13 @@ function App() {
       <Route path='/home' element={<Home/>} ></Route>
       <Route path='/projects' element={<Portfolio/>} ></Route>
       <Route path='/aboutme' element={<Aboutme/>} ></Route>
+      <Route path='/blogs' element={<Blogs/>} ></Route>
       <Route path='/contactme' element={<Contact/>} ></Route>
       <Route path='/manufecturer' element={<Manufecturer/>} ></Route>
       <Route path='/Warehouse' element={<Warehouse/>} ></Route>
       <Route path='/Photographer' element={<Photographer/>} ></Route>
     </Routes>
+    <Footer></Footer>
    <ToastContainer/>
     </div>
   );

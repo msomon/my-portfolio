@@ -26,7 +26,6 @@ const Manufecturer = () => {
     </div>
 
     </div>
-    <Footer></Footer>
     </div>
   );
 };

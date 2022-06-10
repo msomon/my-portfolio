@@ -1,9 +1,0 @@
-.image{
-  overflow:hidden
-}
-.image img{
-  transition: all 1.5s ease;
-}
-.image :hover img{
-transform:scale(1.5)
-}
