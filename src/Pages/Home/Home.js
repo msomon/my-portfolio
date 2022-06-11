@@ -13,10 +13,10 @@ const Home = () => {
  
   return (
     
-    <div className='mt-24 mb-22 lg:mx-20 xs:ml-2'>
-      <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1'>
+    <div className='mt-24 mb-22 '>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:mx-20 xs:ml-2'>
 
-<div className='my-2 lg:mx-auto xs:ml-6 xs:mb-16'>
+   <div className='my-2 lg:mx-auto xs:ml-6 xs:mb-16'>
         
   <h3 className='text-3xl font-bold '> Hi I am <br />
    <span  className='text-yellow-500'>Sumon Ahamed</span> </h3>
@@ -43,8 +43,7 @@ const Home = () => {
    <Aboutme></Aboutme>
  </div>
 
-<div className='mt-16'>
-  
+<div className='mt-16 bg-info'>
   <Portfolio></Portfolio>
 </div>
  <div className='mt-10 mb-16'>

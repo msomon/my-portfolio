@@ -7,15 +7,21 @@ const Manufecturer = () => {
   return (
     <div>
       <div className='grid lg:grid-cols-2 sm:grid-cols-1 '>
-      <div className='h-80vh lg:mx-auto card lg:w-[850px]  bg-base-100 shadow-xl p-10 mt-8 mb-10 xs:order-last'>
+      <div className='h-80vh lg:mx-auto card lg:w-[850px]  bg-base-100 shadow-xl p-10 mt-8 mb-10 order-last'>
        <img src={img1} alt="" />
       </div>
 
-   <div className='lg:h-[660px] lg:mx-auto card lg:w-[650px]  bg-base-100 shadow-xl p-10 mt-8 mb-10 gap-2 xs:order-first'>
-      <h1 className='text-3xl text-center text-secondary font-bold'>Electronics Manufecturer Website</h1>
-      <h1 className='text-2xl'><span className='font-bold'>Client Code</span> : https://github.com/msomon/manufacturer-website-client.git</h1>
-      <h1 className='text-2xl'><span className='font-bold'>Server Code</span> :https://github.com/msomon/manufacturer-website-server </h1>
-      <h1 className='text-2xl'><span className='font-bold'>Live Site</span> :https://electronics-manufacturer.web.app/ </h1>
+   <div className='lg:h-[660px] lg:mx-auto card lg:w-[650px]  bg-base-100 shadow-xl p-10 mt-8 mb-10 gap-2 order-first'>
+     
+      <h1 className='text-3xl text-center text-secondary font-bold '>Electronics Manufecturer Website</h1>
+
+      <div className='grid lg:grid-cols-3 sm:grid-cols-1 mt-4 mb-2 text-primary'>
+      <h1 className='text-2xl'><a href='https://github.com/msomon/manufacturer-website-client.git'><span className='font-bold '>Client Code</span></a>  </h1>
+      <h1 className='text-2xl'><a href='https://github.com/msomon/manufacturer-website-server'><span className='font-bold'>Server Code</span></a>  </h1>
+      <h1 className='text-2xl'><a href='https://electronics-manufacturer.web.app/'><span className='font-bold'>Live Site</span></a> </h1>
+
+      </div>
+
       <h1 className='text-2xl'>Feature : </h1>
 • Implement a beautifull user interface with tailwind <br />
 • Authentication system implement by firebase google, email -password. <br />
