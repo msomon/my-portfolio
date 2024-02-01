@@ -1,0 +1,25 @@
+/* .image{
+  overflow: hidden;
+  transform: rotate(20deg);
+transition:ease 1s;
+} */
+.image:hover {
+  transform: rotate(0);
+}
+
+.experience:hover{
+  background:transparent;
+  cursor:pointer;
+
+}
+
+input{
+  color:black
+}
+@media only screen and (max-width: 330px) {
+.info{
+margin-left: 10px;
+}
+
+}
+
